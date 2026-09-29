@@ -1,0 +1,52 @@
+﻿<AML>
+ <Item type="Method" id="8194161DBF0F4D0EBD0EC1BE64B55B97" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[
+    string hindiMarks = this.getProperty("mark_hindi","");
+    int Hindi = Int16.Parse(hindiMarks);
+  
+	//Changes made in local main branch
+	//Changes made in local main branch 2nd time
+	//Changes made in local main branch 3rd time
+	
+
+    string englishMarks = this.getProperty("mark_english","");
+    int English = int.Parse(englishMarks);
+
+    string historyMarks = this.getProperty("mark_histroy","");
+    int History = int.Parse(historyMarks) ;
+ 
+    string marathiMarks = this.getProperty("mark_marathi","");
+    int Marathi = int.Parse(marathiMarks) ;
+ 
+    string mathMarks = this.getProperty("mark_math","");
+    int Math = int.Parse(mathMarks) ;
+ 
+    string scienceMarks = this.getProperty("mark_science","");
+    int Science = int.Parse(scienceMarks) ;
+ 
+    int total = English+History+Marathi+Math+Science;
+
+    double Calpercentage = ((double)total / 600) * 100;
+    string percentage= Calpercentage.ToString();
+
+    String n = this.getProperty("mark_rollno","");
+    
+    
+    Item student = this.newItem("Student","get");
+    student.setProperty("stud_rollno",n);
+    student = student.apply();
+
+
+    student.setAction("edit");
+    
+    student.setProperty("stud_percentage",percentage);
+    
+    Item result=student.apply();
+    return result;
+   
+]]></method_code>
+  <method_type>C#</method_type>
+  <name>Percentage calculate</name>
+ </Item>
+</AML>

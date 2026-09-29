@@ -1,0 +1,263 @@
+﻿<AML>
+ <Item type="ItemType" id="D3DC1E7E903F4303B5F4EF6B197F5B80" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <history_template keyed_name="Default" type="History Template">3BC16EF9E52B4F9792AB76BCE0492F29</history_template>
+  <implementation_type>table</implementation_type>
+  <instance_data>STUDENT_MARKS</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Student Marks</label>
+  <label_plural xml:lang="en">Student Marks</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs off</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>Student Marks</name>
+  <Relationships>
+  
+   <Item type="Property" id="A20B5F4FC8194A4CB71DE956A0658700" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">English</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>mark_english</name>
+   </Item>
+   <Item type="Property" id="1EECD3F85F014EE99F8359FF9E379366" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Hindi </label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>mark_hindi</name>
+   </Item>
+   <Item type="Property" id="D0B9858E07F5497CADC6AC92493C4A80" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">History</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>mark_histroy</name>
+   </Item>
+   <Item type="Property" id="DBF91B375AF4428D9695E008C9709672" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Marathi</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>mark_marathi</name>
+   </Item>
+   <Item type="Property" id="FB1CE52F2EFA4608A9C31E3C48D6CA7B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Math</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>mark_math</name>
+   </Item>
+   <Item type="Property" id="38F13CF5C1BA4D17954062DEE9222030" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>mark_student</name>
+      <source_id>D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>stud_name</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>Student</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Student Name</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <track_history>0</track_history>
+    <name>mark_name</name>
+   </Item>
+   <Item type="Property" id="3EA89BFBC6724BEA8A5519B8874F0737" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>mark_student</name>
+      <source_id>D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>stud_rollno</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>Student</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Roll Number</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <track_history>0</track_history>
+    <name>mark_rollno</name>
+   </Item>
+   <Item type="Property" id="892E440AC2CD4E049DBC548D83C56FB4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Science</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>mark_science</name>
+   </Item>
+   <Item type="Property" id="BF6361681F454B6D886D81E90E87A1A2" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Student</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <track_history>0</track_history>
+    <name>mark_student</name>
+   </Item>
+   <Item type="View" id="49F6D17FFCB64DFFA512013BC82B1044" action="add">
+    <client>js</client>
+    <related_id keyed_name="Student Marks" type="Form">CBEF76D09040444E93D0FE88EE9BFBA3</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="Server Event" id="8EE5FD2297194E789FAAFCD163A45D35" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="Percentage calculate" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>Percentage calculate</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+   </Item>
+   <Item type="TOC Access" id="9CADFB53C93F4A2EAEB22C4439773DE4" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+   </Item>
+   <Item type="Can Add" id="4646E1ADCB8241279F8D56F251CB05B7" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Teacher" type="Identity">715ABC2F491844C9BA6F398FB26BAD28</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="9FE318FBE2E546B1A7DB157D888B3342" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Default Access" type="Permission">9122CD065CF04141B8EFE263FC80BEA4</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
