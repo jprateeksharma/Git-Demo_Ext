@@ -32,7 +32,7 @@
     <label xml:lang="en">English</label>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>3840</sort_order>
+    <sort_order>3842</sort_order>
     <source_id keyed_name="Student Marks" type="ItemType" name="Student Marks">D3DC1E7E903F4303B5F4EF6B197F5B80</source_id>
     <stored_length>8</stored_length>
     <track_history>0</track_history>
