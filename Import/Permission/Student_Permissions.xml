@@ -1,0 +1,56 @@
+﻿<AML>
+ <Item type="Permission" id="6C351556D96A41958AB5CD7205BD6E4B" action="add">
+  <is_private>0</is_private>
+  <name>Student_Permissions</name>
+  <Relationships>
+   <Item type="Access" id="820BB7A31F0D4228BC639987555B5D75" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="office_Staff" type="Identity">752BE54BD1504D8FA7235EDF9886F627</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>257</sort_order>
+    <source_id keyed_name="Student_Permissions" type="Permission">6C351556D96A41958AB5CD7205BD6E4B</source_id>
+   </Item>
+   <Item type="Access" id="9376416179244246AD2479597E3763FA" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Student_Permissions" type="Permission">6C351556D96A41958AB5CD7205BD6E4B</source_id>
+   </Item>
+   <Item type="Access" id="B22996FD7C874FA09DF8B978779D0E3B" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Teacher" type="Identity">715ABC2F491844C9BA6F398FB26BAD28</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student_Permissions" type="Permission">6C351556D96A41958AB5CD7205BD6E4B</source_id>
+   </Item>
+   <Item type="Access" id="ED45F874E2EB4701B1746FF7089A5DFD" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Principal" type="Identity">04B9C72E99A74BDC98FBB99D7708C2C7</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Student_Permissions" type="Permission">6C351556D96A41958AB5CD7205BD6E4B</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
